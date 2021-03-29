@@ -1,0 +1,163 @@
+body {
+    height: 100%;
+    width: 100%;
+  }
+
+.naslov {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.querty_keyboard {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+.prostor_za_unos_teksta {
+    text-align: center;
+    width: 90%;
+    height: 17rem;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+
+.textarea {
+    background-color: #87d1d180;
+    color: #00c3ff;
+    border: 0.1rem solid #549dbe;
+    font-size: 3rem;
+    width: 80%;
+  height: 100%;
+  }
+
+.tastatura {
+    width: 73%;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border: 0.1rem solid #ececec;
+    margin: 0 auto;
+  }
+
+button {
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    font-size: 100%;
+    color: white;
+    border: 0;
+    margin: 1px;
+  }
+
+button:hover {
+    cursor: grab;
+    color:aqua;
+    background-color: #79767646;
+  }
+
+.prva_dva_reda_i_back_space {
+    flex-direction: column;
+    float: left;
+    height: 100%;
+    width: 100%;
+  }
+
+.prva_dva_reda {
+    flex-direction: row;
+    float: left;
+    width: 83%;
+    height: 39%;
+  }
+
+.prvi_red {
+    display: flex;
+    width: 100%;
+  }
+
+.drugi_red {
+    display: flex;
+    width: 100%;
+  }
+  
+/* .treci_red {
+    display: flex;
+    width: 100%;
+} */
+
+.backspace {
+    width: 16.5%;
+    height: 39%;
+  }
+
+.treci_i_cetvrti_red_caps_lock_i_shif {
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    height: 39%;
+  }
+
+.treci_i_cetvrti_red {
+    flex-direction: row;
+    float: left;
+    width: 75%;
+  }
+
+.treci_red {
+    display: flex;
+    width: 100%;
+  height: 100%;
+  }
+
+.cetvrti_red {
+    display: flex;
+    width: 100%;
+  height: 100%;
+  }
+
+.caps_lock_i_shift {
+    width: 100%;
+    height: 39%;   
+ }
+
+#caps_lock:active {
+    cursor: grab;
+    color:hsl(120, 100%, 50%);
+    background-color: #79767646;
+}
+
+#caps_lock {
+    width: 24.5%;
+    
+  }
+
+#shift {
+    width: 24.5%;
+    
+  }
+
+#shift:active {
+    cursor: grab;
+    color:hsl(120, 100%, 50%);
+    background-color: #79767646;
+}
+.space_ok_i_enter {
+    display: flex;
+    width: 100%;
+} 
+
+#space {
+    float: left;
+    width: 100%;
+    
+  }
+
+#ok {
+    width: 20%;
+  }
+
+#enter {
+    width: 20%;
+  }

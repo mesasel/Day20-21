@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QWERTY keyboard</title>
+    <link rel="stylesheet" href="./index.css" />
+    </head>
+  <body>
+    <h2 class="naslov">This is QWERTY keyboard</h2>
+    <div class="querty_keyboard">
+      <div class="prostor_za_unos_teksta">
+        <textarea id="textarea" class="textarea" placeholder="TEXT AREA" autofocus></textarea>
+      </div>
+      <div class="tastatura">
+        <div class="prva_dva_reda_i_back_space">
+          <div class="prva_dva_reda">
+            <div class="prvi_red">
+              <button id="1" onclick="clickNaDugme(this.id)">1</button>
+              <button id="2" onclick="clickNaDugme(this.id)">2</button>
+              <button id="3" onclick="clickNaDugme(this.id)">3</button>
+              <button id="4" onclick="clickNaDugme(this.id)">4</button>
+              <button id="5" onclick="clickNaDugme(this.id)">5</button>
+              <button id="6" onclick="clickNaDugme(this.id)">6</button>
+              <button id="7" onclick="clickNaDugme(this.id)">7</button>
+              <button id="8" onclick="clickNaDugme(this.id)">8</button>
+              <button id="9" onclick="clickNaDugme(this.id)">9</button>
+              <button id="0" onclick="clickNaDugme(this.id)">0</button>
+            </div>
+            <div class="drugi_red">
+              <button id="q" onclick="clickNaDugme(this.id)">q</button>
+              <button id="w" onclick="clickNaDugme(this.id)">w</button>
+              <button id="e" onclick="clickNaDugme(this.id)">e</button>
+              <button id="r" onclick="clickNaDugme(this.id)">r</button>
+              <button id="t" onclick="clickNaDugme(this.id)">t</button>
+              <button id="y" onclick="clickNaDugme(this.id)">y</button>
+              <button id="u" onclick="clickNaDugme(this.id)">u</button>
+              <button id="i" onclick="clickNaDugme(this.id)">i</button>
+              <button id="o" onclick="clickNaDugme(this.id)">o</button>
+              <button id="p" onclick="clickNaDugme(this.id)">p</button>
+            </div>
+          </div>
+          <!-- <div class="treci_red"></div> -->
+          <button class="backspace" id="backSpace" onclick="backSpace()">Back Space</button>
+        <!-- </div> -->
+        <div class="treci_i_cetvrti_red_caps_lock_i_shif">
+          <div class="treci_i_cetvrti_red">
+            <div class="treci_red">
+              <button id="a" onclick="clickNaDugme(this.id)">a</button>
+              <button id="s" onclick="clickNaDugme(this.id)">s</button>
+              <button id="d" onclick="clickNaDugme(this.id)">d</button>
+              <button id="f" onclick="clickNaDugme(this.id)">f</button>
+              <button id="g" onclick="clickNaDugme(this.id)">g</button>
+              <button id="h" onclick="clickNaDugme(this.id)">h</button>
+              <button id="j" onclick="clickNaDugme(this.id)">j</button>
+              <button id="k" onclick="clickNaDugme(this.id)">k</button>
+              <button id="l" onclick="clickNaDugme(this.id)">l</button>
+            </div>
+            <div class="cetvrti_red">
+              <button id="z" onclick="clickNaDugme(this.id)">z</button>
+              <button id="x" onclick="clickNaDugme(this.id)">x</button>
+              <button id="c" onclick="clickNaDugme(this.id)">c</button>
+              <button id="v" onclick="clickNaDugme(this.id)">v</button>
+              <button id="b" onclick="clickNaDugme(this.id)">b</button>
+              <button id="n" onclick="clickNaDugme(this.id)">n</button>
+              <button id="m" onclick="clickNaDugme(this.id)">m</button>
+              <button id="-" onclick="clickNaDugme(this.id)">-</button>
+              <button id="_" onclick="clickNaDugme(this.id)">_</button>
+            </div>
+          </div>
+          <div class="caps_lock_i_shift">
+            <button id="caps_lock" onclick="capsLock()">Caps Lock</button>
+            <button id="shift" onclick="shiftTorF()">Shift</button>
+          </div>
+        </div>
+        <div class="space_ok_i_enter">
+            <button id="space" onclick="space()">Space</button>
+            <button id="ok" onclick="dugmeOK()">OK</button>
+            <button id="enter" onclick="dugmeEnter()">Enter</button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
